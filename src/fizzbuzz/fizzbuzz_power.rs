@@ -1,0 +1,32 @@
+pub fn fizzbuzz_power() {
+    println!("1");
+    println!("2");
+    println!("Fizz");
+    println!("4");
+    println!("Buzz");
+    println!("Fizz");
+    println!("7");
+    println!("8");
+    println!("Fizz");
+    println!("Buzz");
+    println!("11");
+    println!("Fizz");
+    println!("13");
+    println!("14");
+    println!("FizzBuzz");
+    println!("16");
+    println!("17");
+    println!("Fizz");
+    println!("19");
+    println!("Buzz");
+    println!("Fizz");
+    println!("22");
+    println!("23");
+    println!("Fizz");
+    println!("Buzz");
+    println!("26");
+    println!("Fizz");
+    println!("28");
+    println!("29");
+    println!("FizzBuzz");
+}
