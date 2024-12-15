@@ -23,6 +23,7 @@ pub fn fizz_buzz(n: u32) {
         ],
     };
 
+    // これはただVecを表示させてるだけ
     let fizzbuzz_results: Vec<String> = fizzbuzz.convert(n);
     for fizzbuzz_result in fizzbuzz_results.iter() {
         println!("{}", fizzbuzz_result);

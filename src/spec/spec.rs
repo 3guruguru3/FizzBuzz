@@ -16,6 +16,8 @@ impl ReplaceRuleInterface for CyclicnumberRule {
     // carryは前の結果のFizzを持っている可能性がある。
     // 最初に引数に入れた文字列はreplacementに入っていて、
     // carryは計算結果の文字列が入る。carryが一生空なんてことにはならない
+    // coreでresultにcarryの結果を入れてそれを引数に入れているので、carryはfizzruleとbuzzruleの間で別の値にならない
+    // resultが初期化されるとcarryも初期化される。
     fn apply(&self, carry: String, _n: u32) -> String {
         let fb_string: String = carry + &self.replacement;
         fb_string
